@@ -20,10 +20,9 @@ def scrap(URL):
     store = soup2.find("p", {"class":"wt-text-body-03 wt-line-height-tight wt-mb-lg-1"}).text.strip()
 
     t = soup2.find("a", {"class":"wt-text-link-no-underline", "href" : "#reviews"}).text.strip()
-    print(t)
-    print(type(t))
     n = t.index('(')
     m = t.index(')')
     review_nums = int(t[n+1:m-8])
+    title = title[:-14]
     
     return title, store, review_nums, reviews
