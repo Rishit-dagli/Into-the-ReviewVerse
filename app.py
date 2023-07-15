@@ -11,7 +11,7 @@ def search():
     # You can perform further actions or return a response
     try:
         title, store, review_nums, reviews = scrap(url)
-        return render_template('task.html', product=title, store = store, pros=reviews[0], cons=reviews[2], review_nums=str(review_nums))
+        return render_template('task.html', product=title+' - ', store = store, pros=reviews[0], cons=reviews[2], review_nums=str(review_nums))
     except: 
         title = 'try again'
         store = 'try agian'

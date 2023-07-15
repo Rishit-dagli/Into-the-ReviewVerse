@@ -11,7 +11,7 @@ body {
   }
 
   .medium-search-box {
-    width: 300px;
+    width: 500px;
     height: 40px;
   }
   
@@ -51,8 +51,8 @@ body {
   .left-container {
     position: absolute;
     top: 40%;
-    left: 0px;
-    width: 758px;
+    left: 50px;
+    width: 650px;
     height: 450px;
     background-color: rgb(83, 143, 211);
     padding: 10px;
@@ -64,8 +64,8 @@ body {
   .right-container {
     position: absolute;
     top: 40%;
-    right: 0px;
-    width: 758px;
+    right: 50px;
+    width: 650px;
     height: 450px;
     background-color: rgb(83, 143, 211);
     padding: 10px;
@@ -77,7 +77,7 @@ body {
   
   .outputText {
     font-size: 23px;
-    color: blue;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
     align-self: center;
