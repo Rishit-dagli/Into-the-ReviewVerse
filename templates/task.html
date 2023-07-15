@@ -21,9 +21,8 @@
         <link href="/static/css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="/static/css/templatemo-tiya-golf-club.css" rel="stylesheet">
+
         <link href="/static/css/stylepro.css" rel="stylesheet">
-
-
 
 
     </head>
@@ -38,9 +37,10 @@
         </style>
 
         <main>
+
             <nav class="navbar navbar-expand-lg">                
                 <div class="container">
-                    <a class="navbar-brand d-flex align-items-center" href="{{ url_for('index') }}>
+                    <a class="navbar-brand d-flex align-items-center" href="{{ url_for('index') }}">
                         <img src="{{url_for('static', filename='logo.png')}}" class="navbar-brand-image img-fluid" alt="Project Name">
                         <span class="navbar-brand-text">
                             Name
@@ -49,17 +49,17 @@
                     </a>
 
                     
-    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="fas" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-    
+
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-auto">
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="{{ url_for('index') }}">Home</a>
                             </li>
-    
+
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="{{ url_for('about') }}">About</a>
                             </li>
@@ -71,30 +71,30 @@
                     </div>
                 </div>
             </nav>
-        
-        <section class="membership-section section-padding" id="section_1">
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Type a URL" class="medium-search-box">
-                <button type="button">Search</button>
-            </div>
-
-            <div class="left-container">
-                <div class="output-label">Output:</div>
-                <div id="outputBox"></div>
-
-            <div class="left-container">
-                <div class="output-label">Output:</div>
-                <div id="outputBox"></div>
-            </div>
-            <div class="right-container">
-                <div class="output-label">Output:</div>
-                <div id="outputBox"></div>
-            </div>
-            
-        </section>
 
 
     </main>
+
+    <section class="membership-section section-padding" id="section_1">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Type a URL" class="medium-search-box">
+            <button type="button">Search</button>
+        </div>
+
+        <div class="left-container">
+            <div class="output-label">Output:</div>
+            <div id="outputBox"></div>
+
+        <div class="left-container">
+            <div class="output-label">Output:</div>
+            <div id="outputBox"></div>
+        </div>
+        <div class="right-container">
+            <div class="output-label">Output:</div>
+            <div id="outputBox"></div>
+        </div>
+        
+    </section>
 
     <footer class="site-footer">
        
