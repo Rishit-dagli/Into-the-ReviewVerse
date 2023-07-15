@@ -78,20 +78,43 @@
         <div class="search-container">
             <form action="{{ url_for('search') }}" method="post" class="search-container">
                 <input type="text" name="searchInput" placeholder="Type a URL" class="medium-search-box">
-                <button type="submit">Search</button>
+                <button type="submit" >Search</button>
             </form>
+        </div>
+        <div id="outputContainer">
+            <p class="outputText">This is the output message.</p>
         </div>
 
         <div class="left-container">
-            <div class="output-label">Output:</div>
-            <div id="outputBox"></div>
-        </div>
+            <div class="outputText">Left Box fdskl  fnsdkl nfs kfsdn kls</div>
+          </div>
+          
         <div class="right-container">
-            <div class="output-label">Output:</div>
-            {% if pros %}
-            <p>{{ pros }}</p>
-            {% endif %}
+            <div class="outputText">Left Box</div>
+            <!-- {% if pros %}
+            <div>
+                
+            <p>
+                
+                {{ pros }}
+                
+            </p>
+            
+            </div>
+            {% endif %} -->
+            
         </div>
+
+
+        <div style="position: absolute; top: 300px; left: 357px; color: rgb(0, 0, 0); font-size: 20px;">
+            <b>Pros</b>
+        </div>
+        <div style="position: absolute; top: 300px; left: 1117px; color: rgb(0, 0, 0); font-size: 20px;">
+           <b>Cons</b>
+        </div>
+
+
+
         
     </section>
 

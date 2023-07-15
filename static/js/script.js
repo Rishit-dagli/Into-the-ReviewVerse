@@ -75,3 +75,13 @@ function performSearch() {
   searchResult.textContent = `Search Results for: ${searchQuery}`;
   searchResultsContainer.appendChild(searchResult);
 }
+
+
+function showOutputBoxes() {
+  var outputContainer = document.querySelector('.output-container');
+  var leftBox = document.querySelector('.left-container');
+  var rightBox = document.querySelector('.right-container');
+  outputContainer.classList.remove('hidden');
+  leftBox.classList.remove('hidden');
+  rightBox.classList.remove('hidden');
+}
