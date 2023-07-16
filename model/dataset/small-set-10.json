@@ -1,0 +1,61 @@
+[
+    {
+        "instruction": "Given the reviews of this product give me its pros",
+        "input": "Nice shirt. However, these took over 3 months to arrive and took over a month to be shipped out with no clear date when it would be shipped out when I contacted the seller. if you need something immediately, I would consider that. \nI loved my outfit and so did others! It was perfect for an Old Year’s Day (that’s what New Years Eve is called in Barbados) beach wedding. Easily transitioned into a party outfit with a change of shoes. Both pieces were custom. I ordered two outfits for this wedding and this one arrived in time for me to wear. Ann was very responsive to my questions. Will definitely order something again. I may repeat the shirt in a different color.  \nSuch a great cut for summer, love how the airflow is maximised. While still offering good sun protection. Great quality. Just wish it came in all colours. \n First of all, I made the order in the wrong size and they were happy to adjust my order asap. Second, the shipping ended up being very fast. Most importantly, the clothing itself is really well made, comfortable, breathes well, and looks great! Will most likely get more clothes from here over time. I'm eyeing the button ups next, I think. \n This is not the first time I have ordered from blackficus. The value for money is amazing. I recommend 100% \nReally nice heavy duty linen. Quality is exceptional. \n",
+        "output": " Its a good quality heavy duty linen \n Its good for the summer as it has a good amount of airflow \n It also has good replacement policies"
+    },
+
+    {
+        "instruction": "Given the reviews of this product give me its pros",
+        "input": "Excellent product, very happy with it. \nGreat piece, first time acquiring a 3d printed item. Works great and looks good. \nworks well with the airpods max, even with a protective case on them. \nShipped quicker than expected. The AirPods Max stand work flawlessly. \nI never received the item was supposed to be a Christmas present for my daughter very disappointed said was going to come before Xmas with a date never did no tracking number very disappointed \n",
+        "output": "The Airpods Max fit perfectly in them. \nThe product is a 3d printed item and solves its purpose. "
+    },
+
+    {
+        "instruction": "Given the reviews of this product give me its pros",
+        "input": "Fast shipping and looks as advertised \nAbsolutely in love with this beautiful harness! Best birthday present for the best dog ever (of course she got some yummy snacks as well). Great quality and fit. \nA beautiful harness, unfortunately it didn't fit my Chihuahua bitch, but there is still a top rating because the quality was just great and such a beautiful design that you can't get anywhere else! Fast and easy communication and refund.\n We fall in love all over again. The materials, the quality and the service are all top notch. We already have a lot of Prunkhund parts and this will certainly not be the last. 🧡 \nBeautiful soft harnesses for dogs available here! - Are an eye-catcher! Have already bought several with a matching leash! Can recommend it to you! \n",
+        "output": "The shipping time is fast. \nThe refund system and communication is good. \n Its a soft and comfortable harness for the dog."
+    },
+
+    {
+        "instruction": "Given the reviews of this product give me its pros",
+        "input": "The seller was so nice! The ring is beautiful and so worth it! When I got my ring it was a little snug so I messaged the seller and she gave me a huge discount on getting another ring in my correct size. AMAZING 💕 \nFast shipping. I ordered a size 8 for my middle finger and it fits and looks great. \nThey look so great stacked next to my other rings. Great quality, I’ve been wearing these for several weeks now. \nLove this ring. Simple piece. Just right for an additional ring. I use it everyday. \nIt’s cute! Can kind of tell its fake but still pretty! Happy with it \n",
+        "output": "The rings mostly are a perfect fit. \nIts a simple piece perfect for another ring. \nThe shipping is comparatively fast."
+    },
+
+    {
+        "instruction": "Given the reviews of this product give me its pros",
+        "input": "The shop was very thorough in making sure the order was how I wanted. They sent me multiple layouts before and were quick with communicating. The sign is beautiful and I received it quickly. It is also very bright and you can adjust the brightness. Highly recommend! \nOrdered a sign for my husband for Father’s Day and it turned out GREAT! The ordering process was so easy and the communication back and forth was quick! The sign was delivered fast and packaged well! I would definitely recommend ordering from here! \nthe neon sign i received is beautiful! came neatly packed to avoid damage. the sign’s light controls are super easy too. the seller kept me updated on my order and just overall was pleasant to work with. if you’re looking for a neon sign definitely buy from west ninth! \nI am extremely happy with my puchase! It is beautiful! The customer service was also great! They responded to me very quickly. I have recommend them to several people! \nI ordered a neon sign for my niece's birthday and she loves it! It worked out beautifully - even better than I expected. Plus, the customer service is on-point! Quick responses to all my questions and super helpful. Fast service, too - I received my order within a week. \n",
+        "output": "Its really great as a present. \nThe shipping time is fast. \nCommunication from the seller is really good thorough for your order. \nThe package is very safely packed."
+    },
+
+    {
+        "instruction": "Given the reviews of this product give me its cons",
+        "input": "The seller was so nice! The ring is beautiful and so worth it! When I got my ring it was a little snug so I messaged the seller and she gave me a huge discount on getting another ring in my correct size. AMAZING 💕 \nFast shipping. I ordered a size 8 for my middle finger and it fits and looks great. \nThey look so great stacked next to my other rings. Great quality, I’ve been wearing these for several weeks now. \nLove this ring. Simple piece. Just right for an additional ring. I use it everyday. \nIt’s cute! Can kind of tell its fake but still pretty! Happy with it \n",
+        "output": "Its easy to make out that its fake. \n Sometimes the ring size might not perfectly fit you. \n there is no return policy for the ring."
+    },
+
+    {
+        "instruction": "Given the reviews of this product give me its cons",
+        "input": "Fast shipping and looks as advertised \nAbsolutely in love with this beautiful harness! Best birthday present for the best dog ever (of course she got some yummy snacks as well). Great quality and fit. \nA beautiful harness, unfortunately it didn't fit my Chihuahua bitch, but there is still a top rating because the quality was just great and such a beautiful design that you can't get anywhere else! Fast and easy communication and refund.\n We fall in love all over again. The materials, the quality and the service are all top notch. We already have a lot of Prunkhund parts and this will certainly not be the last. 🧡 \nBeautiful soft harnesses for dogs available here! - Are an eye-catcher! Have already bought several with a matching leash! Can recommend it to you! \n",
+        "output": "It might not fit the dog perfectly based on the dog's size."
+    },
+
+    {
+        "instruction": "Given the reviews of this product give me its cons",
+        "input": "Excellent product, very happy with it. \nGreat piece, first time acquiring a 3d printed item. Works great and looks good. \nworks well with the airpods max, even with a protective case on them. \nShipped quicker than expected. The AirPods Max stand work flawlessly. \nI never received the item was supposed to be a Christmas present for my daughter very disappointed said was going to come before Xmas with a date never did no tracking number very disappointed \n",
+        "output": "The shipping can be delayed. \nIts 3D printed so its made of Plastic."
+    },
+
+    {
+        "instruction": "Given the reviews of this product give me its cons",
+        "input": "Nice shirt. However, these took over 3 months to arrive and took over a month to be shipped out with no clear date when it would be shipped out when I contacted the seller. if you need something immediately, I would consider that. \nI loved my outfit and so did others! It was perfect for an Old Year’s Day (that’s what New Years Eve is called in Barbados) beach wedding. Easily transitioned into a party outfit with a change of shoes. Both pieces were custom. I ordered two outfits for this wedding and this one arrived in time for me to wear. Ann was very responsive to my questions. Will definitely order something again. I may repeat the shirt in a different color.  \nSuch a great cut for summer, love how the airflow is maximised. While still offering good sun protection. Great quality. Just wish it came in all colours. \n First of all, I made the order in the wrong size and they were happy to adjust my order asap. Second, the shipping ended up being very fast. Most importantly, the clothing itself is really well made, comfortable, breathes well, and looks great! Will most likely get more clothes from here over time. I'm eyeing the button ups next, I think. \n This is not the first time I have ordered from blackficus. The value for money is amazing. I recommend 100% \nReally nice heavy duty linen. Quality is exceptional. \n",
+        "output": "The shipping might be delayed. \nIt has a lot of airflow so not good for cold or windy weather. \nIt might not be available in the colour you want."
+    },
+
+    {
+        "instruction": "Given the reviews of this product give me its cons",
+        "input": "The shop was very thorough in making sure the order was how I wanted. They sent me multiple layouts before and were quick with communicating. The sign is beautiful and I received it quickly. It is also very bright and you can adjust the brightness. Highly recommend! \nOrdered a sign for my husband for Father’s Day and it turned out GREAT! The ordering process was so easy and the communication back and forth was quick! The sign was delivered fast and packaged well! I would definitely recommend ordering from here! \nthe neon sign i received is beautiful! came neatly packed to avoid damage. the sign’s light controls are super easy too. the seller kept me updated on my order and just overall was pleasant to work with. if you’re looking for a neon sign definitely buy from west ninth! \nI am extremely happy with my puchase! It is beautiful! The customer service was also great! They responded to me very quickly. I have recommend them to several people! \nI ordered a neon sign for my niece's birthday and she loves it! It worked out beautifully - even better than I expected. Plus, the customer service is on-point! Quick responses to all my questions and super helpful. Fast service, too - I received my order within a week. \n",
+        "output": "No bad reviews."
+    }
+]
