@@ -11,6 +11,7 @@ def search():
     # You can perform further actions or return a response
     try:
         title, store, review_nums, reviews = scrap(url)
+        forML = '<|prompter|>' + 'Given the reviews of this product give me its pros in a list format only.' + ' ' + reviews[0] + ' ' + reviews[1] + ' ' + reviews[2] + ' ' + reviews[3] + '<|endoftext|><|assistant|>'
         return render_template('task.html', product=title+' - ', store = store, pros=reviews[0], cons=reviews[2], review_nums=str(review_nums))
     except: 
         title = 'try again'
