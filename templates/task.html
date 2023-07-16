@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>ReviewVerse</title>
+
+        <!-- CSS FILES -->                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="/static/css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="/static/css/templatemo-tiya-golf-club.css" rel="stylesheet">
+
+        <link href="/static/css/stylepro.css" rel="stylesheet">
+
+
+    </head>
+    
+    <body>
+
+        <style>
+            body {
+            background-color: rgb(83, 143, 211);
+          }
+
+        </style>
+
+        <main>
+
+            <nav class="navbar navbar-expand-lg">                
+                <div class="container">
+                    <a class="navbar-brand d-flex align-items-center" href="{{ url_for('index') }}">
+                        <img src="{{url_for('static', filename='logo.png')}}" width="70" height="70" alt="Project Name">
+                        <span class="navbar-brand-text">
+                            <small style="font-size:16px;">Into the</small>
+                            ReviewVerse
+                        </span>
+                    </a>
+
+                    
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="fas" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="{{ url_for('index') }}">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="{{ url_for('about') }}">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="{{ url_for('task') }}">Task</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+    </main>
+
+    <section class="membership-section section-padding" id="section_1">
+        <div class="search-container">
+            <form action="{{ url_for('search') }}" method="post" class="search-container">
+                <input type="text" name="searchInput" placeholder="Type a URL" class="medium-search-box">
+                <button type="submit" >Search</button>
+            </form>
+        </div>
+        <div id="outputContainer">
+            {% if product %}
+            <p style="color: white; font: Sans-Serif; font-size: 25px;"><b>{{ product }}</b></p>
+            <p style="color: white; font: Sans-Serif; font-size: 18px;">{{ store }} ({{ review_nums }} reviews)</p>
+            {% endif %}
+        </div>
+
+        <div class="left-container">
+            <div class="outputText">
+                {% if pro1 %}
+                <ul>
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 10px; left: 0px">
+                        {{ pro1 }}
+                    </li>
+                    {% if pro2 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 60px; left: 0px">
+                        {{ pro2 }}
+                    </li>
+                    {% endif %}
+                    {% if pro3 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 110px; left: 0px">
+                        {{ pro3 }}
+                    </li>
+                    {% endif %}
+                    {% if pro4 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 160px; left: 0px">
+                        {{ pro4 }}
+                    </li>
+                    {% endif %}
+                    {% if pro5 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 210px; left: 0px">
+                        {{ pro5 }}
+                    </li>
+                    {% endif %}
+                    {% if pro6 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 260px; left: 0px">
+                        {{ pro6 }}
+                    </li>
+                    {% endif %}
+                </ul>
+                {% endif %}
+            </div>
+          </div>
+          
+        <div class="right-container">
+            <div class="outputText">
+                {% if con1 %}
+                <ul>
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 10px; left: 0px">
+                        {{ con1 }}
+                    </li>
+                    {% if con2 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 60px; left: 0px">
+                        {{ con2 }}
+                    </li>
+                    {% endif %}
+                    {% if con3 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 110px; left: 0px">
+                        {{ con3 }}
+                    </li>
+                    {% endif %}
+                    {% if con4 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 160px; left: 0px">
+                        {{ con4 }}
+                    </li>
+                    {% endif %}
+                    {% if con5 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 210px; left: 0px">
+                        {{ con5 }}
+                    </li>
+                    {% endif %}
+                    {% if con6 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 260px; left: 0px">
+                        {{ con6 }}
+                    </li>
+                    {% endif %}
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+
+        {% if pro1 %}
+        <div style="position: absolute; top: 270px; left: 357px; color: #3D405B; font-size: 27px; font: Sans-Serif;">
+            <b>Pros</b>
+        </div>
+        <div style="position: absolute; top: 270px; left: 1038px; color: #3D405B; font-size: 27px; font: Sans-Serif;">
+           <b>Cons</b>
+        </div>
+        {% endif %}
+
+
+        
+    </section>
+
+    <footer class="site-footer">
+       
+        
+    </footer>
+
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="/script/js/jquery.min.js"></script>
+    <script src="/script/js/bootstrap.bundle.min.js"></script>
+    <script src="/script/js/jquery.sticky.js"></script>
+    <script src="/script/js/click-scroll.js"></script>
+    <script src="/script/js/animated-headline.js"></script>
+    <script src="/script/js/modernizr.js"></script>
+    <script src="/script/js/custom.js"></script>
+    <script src="/script/js/script.js"></script>
+
+</body>
+</html>
