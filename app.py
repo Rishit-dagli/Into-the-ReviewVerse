@@ -12,10 +12,10 @@ def search():
     # You can perform further actions or return a response
     try:
         title, store, review_nums, reviews = scrap(url)
+        infer = []
         for val in ['pros', 'cons']:
-            infer = inference(reviews, val)
-            print(infer)
-        return render_template('task.html', product=title+' - ', store = store, pros=reviews[0], cons=reviews[2], review_nums=str(review_nums))
+            infer.append(inference(reviews, val))
+        return render_template('task.html', product=title+' - ', store = store, pros=infer[0], cons=infer[1], review_nums=str(review_nums))
     except: 
         title = 'try again'
         store = 'try agian'
