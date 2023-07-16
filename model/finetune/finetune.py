@@ -89,11 +89,9 @@ def train(
         additional_training_arguments = None
     if isinstance(additional_training_arguments, str):
         try:
-            additional_training_arguments = json.loads(
-                additional_training_arguments)
+            additional_training_arguments = json.loads(additional_training_arguments)
         except Exception as e:
-            raise ValueError(
-                f"Could not parse additional_training_arguments: {e}")
+            raise ValueError(f"Could not parse additional_training_arguments: {e}")
 
     if isinstance(additional_lora_config, str):
         additional_lora_config = additional_lora_config.strip()
@@ -107,35 +105,35 @@ def train(
 
     # for logging
     finetune_args = {
-        'micro_batch_size': micro_batch_size,
-        'gradient_accumulation_steps': gradient_accumulation_steps,
-        'num_train_epochs': num_train_epochs,
-        'learning_rate': learning_rate,
-        'cutoff_len': cutoff_len,
-        'val_set_size': val_set_size,
-        'lora_r': lora_r,
-        'lora_alpha': lora_alpha,
-        'lora_dropout': lora_dropout,
-        'lora_target_modules': lora_target_modules,
-        'lora_modules_to_save': lora_modules_to_save or [],
-        'train_on_inputs': train_on_inputs,
-        'group_by_length': group_by_length,
-        'load_in_8bit': load_in_8bit,
-        'fp16': fp16,
-        'bf16': bf16,
-        'gradient_checkpointing': gradient_checkpointing,
-        'save_steps': save_steps,
-        'save_total_limit': save_total_limit,
-        'logging_steps': logging_steps,
-        'additional_training_arguments': additional_training_arguments,
-        'additional_lora_config': additional_lora_config,
+        "micro_batch_size": micro_batch_size,
+        "gradient_accumulation_steps": gradient_accumulation_steps,
+        "num_train_epochs": num_train_epochs,
+        "learning_rate": learning_rate,
+        "cutoff_len": cutoff_len,
+        "val_set_size": val_set_size,
+        "lora_r": lora_r,
+        "lora_alpha": lora_alpha,
+        "lora_dropout": lora_dropout,
+        "lora_target_modules": lora_target_modules,
+        "lora_modules_to_save": lora_modules_to_save or [],
+        "train_on_inputs": train_on_inputs,
+        "group_by_length": group_by_length,
+        "load_in_8bit": load_in_8bit,
+        "fp16": fp16,
+        "bf16": bf16,
+        "gradient_checkpointing": gradient_checkpointing,
+        "save_steps": save_steps,
+        "save_total_limit": save_total_limit,
+        "logging_steps": logging_steps,
+        "additional_training_arguments": additional_training_arguments,
+        "additional_lora_config": additional_lora_config,
     }
     if val_set_size and val_set_size > 0:
-        finetune_args['val_set_size'] = val_set_size
+        finetune_args["val_set_size"] = val_set_size
     # if lora_modules_to_save:
     #     finetune_args['lora_modules_to_save'] = lora_modules_to_save
     if resume_from_checkpoint:
-        finetune_args['resume_from_checkpoint'] = resume_from_checkpoint
+        finetune_args["resume_from_checkpoint"] = resume_from_checkpoint
 
     wandb = None
     if wandb_api_key:
@@ -155,7 +153,7 @@ def train(
         "WANDB_PROJECT" in os.environ and len(os.environ["WANDB_PROJECT"]) > 0
     )
     if use_wandb:
-        os.environ['WANDB_MODE'] = "online"
+        os.environ["WANDB_MODE"] = "online"
         wandb = importlib.import_module("wandb")
         wandb.init(
             project=wandb_project,
@@ -165,18 +163,21 @@ def train(
             tags=wandb_tags,
             reinit=True,
             magic=True,
-            config={'finetune_args': finetune_args},
+            config={"finetune_args": finetune_args},
             # id=None  # used for resuming
         )
         if additional_wandb_config:
             wandb.config.update(additional_wandb_config)
     else:
-        os.environ['WANDB_MODE'] = "disabled"
+        os.environ["WANDB_MODE"] = "disabled"
 
     if os.path.exists(output_dir):
-        if (not os.path.isdir(output_dir)) or os.path.exists(os.path.join(output_dir, 'adapter_config.json')):
+        if (not os.path.isdir(output_dir)) or os.path.exists(
+            os.path.join(output_dir, "adapter_config.json")
+        ):
             raise ValueError(
-                f"The output directory already exists and is not empty. ({output_dir})")
+                f"The output directory already exists and is not empty. ({output_dir})"
+            )
 
     device_map = "auto"
     world_size = int(os.environ.get("WORLD_SIZE", 1))
@@ -187,12 +188,12 @@ def train(
     if status_message_callback:
         if isinstance(base_model, str):
             cb_result = status_message_callback(
-                f"Preparing model '{base_model}' for training...")
+                f"Preparing model '{base_model}' for training..."
+            )
             if cb_result:
                 return
         else:
-            cb_result = status_message_callback(
-                "Preparing model for training...")
+            cb_result = status_message_callback("Preparing model for training...")
             if cb_result:
                 return
 
@@ -206,7 +207,7 @@ def train(
             torch_dtype=torch.float16,
             llm_int8_skip_modules=lora_modules_to_save,
             device_map=device_map,
-            use_auth_token=hf_access_token
+            use_auth_token=hf_access_token,
         )
         if re.match("[^/]+/llama", model_name):
             print(f"Setting special tokens for LLaMA model {model_name}...")
@@ -223,17 +224,15 @@ def train(
                 tokenizer, use_auth_token=hf_access_token
             )
         except Exception as e:
-            if 'LLaMATokenizer' in str(e):
+            if "LLaMATokenizer" in str(e):
                 tokenizer = LlamaTokenizer.from_pretrained(
-                    tokenizer_name,
-                    use_auth_token=hf_access_token
+                    tokenizer_name, use_auth_token=hf_access_token
                 )
             else:
                 raise e
 
         if re.match("[^/]+/llama", tokenizer_name):
-            print(
-                f"Setting special tokens for LLaMA tokenizer {tokenizer_name}...")
+            print(f"Setting special tokens for LLaMA tokenizer {tokenizer_name}...")
             tokenizer.pad_token_id = 0
             tokenizer.bos_token_id = 1
             tokenizer.eos_token_id = 2
@@ -249,27 +248,29 @@ def train(
         model = prepare_model_for_int8_training(model)
     except Exception as e:
         print(
-            f"Got error while running prepare_model_for_int8_training(model), maybe the model has already be prepared. Original error: {e}.")
+            f"Got error while running prepare_model_for_int8_training(model), maybe the model has already be prepared. Original error: {e}."
+        )
 
     if status_message_callback:
-        cb_result = status_message_callback(
-            "Preparing PEFT model for training...")
+        cb_result = status_message_callback("Preparing PEFT model for training...")
         if cb_result:
             return
 
     lora_config_args = {
-        'r': lora_r,
-        'lora_alpha': lora_alpha,
-        'target_modules': lora_target_modules,
-        'modules_to_save': lora_modules_to_save,
-        'lora_dropout': lora_dropout,
-        'bias': "none",
-        'task_type': "CAUSAL_LM",
+        "r": lora_r,
+        "lora_alpha": lora_alpha,
+        "target_modules": lora_target_modules,
+        "modules_to_save": lora_modules_to_save,
+        "lora_dropout": lora_dropout,
+        "bias": "none",
+        "task_type": "CAUSAL_LM",
     }
-    config = LoraConfig(**{
-        **lora_config_args,
-        **(additional_lora_config or {}),
-    })
+    config = LoraConfig(
+        **{
+            **lora_config_args,
+            **(additional_lora_config or {}),
+        }
+    )
     model = get_peft_model(model, config)
     if bf16:
         model = model.to(torch.bfloat16)
@@ -283,9 +284,7 @@ def train(
             checkpoint_name = os.path.join(
                 resume_from_checkpoint, "adapter_model.bin"
             )  # only LoRA model - LoRA config above has to fit
-            resume_from_checkpoint = (
-                False  # So the trainer won't try loading its state
-            )
+            resume_from_checkpoint = False  # So the trainer won't try loading its state
         # The two files above have a different name depending on how they were saved, but are actually the same.
         if os.path.exists(checkpoint_name):
             print(f"Restarting from {checkpoint_name}")
@@ -306,11 +305,19 @@ def train(
     )
     model.print_trainable_parameters()
     if use_wandb and wandb:
-        wandb.config.update({"model": {"all_params": all_params, "trainable_params": trainable_params,
-                            "trainable%": 100 * trainable_params / all_params}})
+        wandb.config.update(
+            {
+                "model": {
+                    "all_params": all_params,
+                    "trainable_params": trainable_params,
+                    "trainable%": 100 * trainable_params / all_params,
+                }
+            }
+        )
     if params_info_callback:
         cb_result = params_info_callback(
-            all_params=all_params, trainable_params=trainable_params)
+            all_params=all_params, trainable_params=trainable_params
+        )
         if cb_result:
             return
 
@@ -358,7 +365,7 @@ def train(
 
     # If train_data is a list, convert it to datasets.Dataset
     if isinstance(train_data, list):
-        with open(os.path.join(output_dir, "train_data_samples.json"), 'w') as file:
+        with open(os.path.join(output_dir, "train_data_samples.json"), "w") as file:
             json.dump(list(train_data[:100]), file, indent=2)
         train_data = Dataset.from_list(train_data)
 
@@ -366,12 +373,8 @@ def train(
         train_val = train_data.train_test_split(
             test_size=val_set_size, shuffle=True, seed=42
         )
-        train_data = (
-            train_val["train"].shuffle().map(generate_and_tokenize_prompt)
-        )
-        val_data = (
-            train_val["test"].shuffle().map(generate_and_tokenize_prompt)
-        )
+        train_data = train_val["train"].shuffle().map(generate_and_tokenize_prompt)
+        val_data = train_val["test"].shuffle().map(generate_and_tokenize_prompt)
     else:
         train_data = train_data.shuffle().map(generate_and_tokenize_prompt)
         val_data = None
@@ -388,28 +391,28 @@ def train(
 
     # https://huggingface.co/docs/transformers/main/en/main_classes/trainer#transformers.TrainingArguments
     training_args = {
-        'output_dir': output_dir,
-        'per_device_train_batch_size': micro_batch_size,
-        'gradient_checkpointing': gradient_checkpointing,
-        'gradient_accumulation_steps': gradient_accumulation_steps,
-        'warmup_steps': 100,
-        'num_train_epochs': num_train_epochs,
-        'learning_rate': learning_rate,
-        'fp16': fp16,
-        'bf16': bf16,
-        'logging_steps': logging_steps,
-        'optim': "adamw_torch",
-        'evaluation_strategy': "steps" if val_set_size > 0 else "no",
-        'save_strategy': "steps",
-        'eval_steps': save_steps if val_set_size > 0 else None,
-        'save_steps': save_steps,
-        'output_dir': output_dir,
-        'save_total_limit': save_total_limit,
-        'load_best_model_at_end': True if val_set_size > 0 else False,
-        'ddp_find_unused_parameters': False if ddp else None,
-        'group_by_length': group_by_length,
-        'report_to': "wandb" if use_wandb else None,
-        'run_name': wandb_run_name if use_wandb else None,
+        "output_dir": output_dir,
+        "per_device_train_batch_size": micro_batch_size,
+        "gradient_checkpointing": gradient_checkpointing,
+        "gradient_accumulation_steps": gradient_accumulation_steps,
+        "warmup_steps": 100,
+        "num_train_epochs": num_train_epochs,
+        "learning_rate": learning_rate,
+        "fp16": fp16,
+        "bf16": bf16,
+        "logging_steps": logging_steps,
+        "optim": "adamw_torch",
+        "evaluation_strategy": "steps" if val_set_size > 0 else "no",
+        "save_strategy": "steps",
+        "eval_steps": save_steps if val_set_size > 0 else None,
+        "save_steps": save_steps,
+        "output_dir": output_dir,
+        "save_total_limit": save_total_limit,
+        "load_best_model_at_end": True if val_set_size > 0 else False,
+        "ddp_find_unused_parameters": False if ddp else None,
+        "group_by_length": group_by_length,
+        "report_to": "wandb" if use_wandb else None,
+        "run_name": wandb_run_name if use_wandb else None,
     }
 
     # https://huggingface.co/docs/transformers/main/en/main_classes/trainer#transformers.Trainer
@@ -418,10 +421,9 @@ def train(
         train_dataset=train_data,
         eval_dataset=val_data,
         tokenizer=tokenizer,
-        args=transformers.TrainingArguments(**{
-            **training_args,
-            **(additional_training_arguments or {})
-        }),
+        args=transformers.TrainingArguments(
+            **{**training_args, **(additional_training_arguments or {})}
+        ),
         data_collator=transformers.DataCollatorForSeq2Seq(
             tokenizer, pad_to_multiple_of=8, return_tensors="pt", padding=True
         ),
@@ -430,9 +432,13 @@ def train(
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    with open(os.path.join(output_dir, "trainer_args.json"), 'w') as trainer_args_json_file:
+    with open(
+        os.path.join(output_dir, "trainer_args.json"), "w"
+    ) as trainer_args_json_file:
         json.dump(trainer.args.to_dict(), trainer_args_json_file, indent=2)
-    with open(os.path.join(output_dir, "finetune_args.json"), 'w') as finetune_args_json_file:
+    with open(
+        os.path.join(output_dir, "finetune_args.json"), "w"
+    ) as finetune_args_json_file:
         json.dump(finetune_args, finetune_args_json_file, indent=2)
 
     # Not working, will only give us ["prompt", "completion", "input_ids", "attention_mask", "labels"]
@@ -447,9 +453,7 @@ def train(
 
     old_state_dict = model.state_dict
     model.state_dict = (
-        lambda self, *_, **__: get_peft_model_state_dict(
-            self, old_state_dict()
-        )
+        lambda self, *_, **__: get_peft_model_state_dict(self, old_state_dict())
     ).__get__(model, type(model))
 
     if torch.__version__ >= "2" and sys.platform != "win32":
@@ -460,12 +464,17 @@ def train(
     model.save_pretrained(output_dir)
     print(f"Model saved to {output_dir}.")
 
-    with open(os.path.join(output_dir, "trainer_log_history.jsonl"), 'w') as trainer_log_history_jsonl_file:
+    with open(
+        os.path.join(output_dir, "trainer_log_history.jsonl"), "w"
+    ) as trainer_log_history_jsonl_file:
         trainer_log_history = "\n".join(
-            [json.dumps(line) for line in trainer.state.log_history])
+            [json.dumps(line) for line in trainer.state.log_history]
+        )
         trainer_log_history_jsonl_file.write(trainer_log_history)
 
-    with open(os.path.join(output_dir, "train_output.json"), 'w') as train_output_json_file:
+    with open(
+        os.path.join(output_dir, "train_output.json"), "w"
+    ) as train_output_json_file:
         json.dump(train_output, train_output_json_file, indent=2)
 
     if use_wandb and wandb:

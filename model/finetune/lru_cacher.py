@@ -18,9 +18,9 @@ class ModelLRUCache:
 
             models_did_move = False
             for k, m in self.cache.items():
-                if key != k and m.device.type != 'cpu':
+                if key != k and m.device.type != "cpu":
                     models_did_move = True
-                    self.cache[k] = m.to('cpu')
+                    self.cache[k] = m.to("cpu")
 
             if models_did_move:
                 gc.collect()
@@ -30,9 +30,11 @@ class ModelLRUCache:
 
             model = self.cache[key]
 
-            if (model.device.type != device_type or
-                    hasattr(model, "model") and
-                    model.model.device.type != device_type):
+            if (
+                model.device.type != device_type
+                or hasattr(model, "model")
+                and model.model.device.type != device_type
+            ):
                 model = model.to(device_type)
 
             return model
@@ -57,9 +59,9 @@ class ModelLRUCache:
 
         models_did_move = False
         for k, m in self.cache.items():
-            if m.device.type != 'cpu':
+            if m.device.type != "cpu":
                 models_did_move = True
-                self.cache[k] = m.to('cpu')
+                self.cache[k] = m.to("cpu")
 
         if models_did_move:
             gc.collect()
