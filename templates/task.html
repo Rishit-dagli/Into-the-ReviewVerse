@@ -90,11 +90,36 @@
 
         <div class="left-container">
             <div class="outputText">
-                {% if pros %}
+                {% if pro1 %}
                 <ul>
                     <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 10px; left: 0px">
-                        {{ pros }}
+                        {{ pro1 }}
                     </li>
+                    {% if pro2 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 60px; left: 0px">
+                        {{ pro2 }}
+                    </li>
+                    {% endif %}
+                    {% if pro3 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 110px; left: 0px">
+                        {{ pro3 }}
+                    </li>
+                    {% endif %}
+                    {% if pro4 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 160px; left: 0px">
+                        {{ pro4 }}
+                    </li>
+                    {% endif %}
+                    {% if pro5 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 210px; left: 0px">
+                        {{ pro5 }}
+                    </li>
+                    {% endif %}
+                    {% if pro6 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 260px; left: 0px">
+                        {{ pro6 }}
+                    </li>
+                    {% endif %}
                 </ul>
                 {% endif %}
             </div>
@@ -102,17 +127,42 @@
           
         <div class="right-container">
             <div class="outputText">
-                {% if cons %}
+                {% if con1 %}
                 <ul>
-                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 10px; right: 0px">
-                        {{ cons }}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 10px; left: 0px">
+                        {{ con1 }}
                     </li>
+                    {% if con2 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 60px; left: 0px">
+                        {{ con2 }}
+                    </li>
+                    {% endif %}
+                    {% if con3 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 110px; left: 0px">
+                        {{ con3 }}
+                    </li>
+                    {% endif %}
+                    {% if con4 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 160px; left: 0px">
+                        {{ con4 }}
+                    </li>
+                    {% endif %}
+                    {% if con5 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 210px; left: 0px">
+                        {{ con5 }}
+                    </li>
+                    {% endif %}
+                    {% if con6 %}
+                    <li style="color: white; font: Sans-Serif; font-size: 18px; position: absolute; top: 260px; left: 0px">
+                        {{ con6 }}
+                    </li>
+                    {% endif %}
                 </ul>
                 {% endif %}
             </div>
         </div>
 
-        {% if pros %}
+        {% if pro1 %}
         <div style="position: absolute; top: 270px; left: 357px; color: #3D405B; font-size: 27px; font: Sans-Serif;">
             <b>Pros</b>
         </div>
