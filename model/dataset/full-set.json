@@ -1,0 +1,1422 @@
+[
+    {
+        "instruction": "Given the reviews of this product, give me its pros",
+        "input": "I purchased this laptop and it exceeded my expectations. The performance is outstanding, and it handles demanding tasks with ease. The display is vibrant and the colors are accurate. The battery life is impressive, lasting for hours on a single charge. The build quality is solid and it feels premium. The keyboard is comfortable to type on and the touchpad is responsive. Overall, I'm extremely satisfied with this laptop.",
+        "output": "Outstanding performance \nVibrant and accurate display \nImpressive battery life \nSolid build quality \nComfortable keyboard \nResponsive touchpad"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its pros",
+        "input": "I recently bought this smartphone and it's fantastic. The camera takes stunning photos with great detail and vibrant colors. The battery life is excellent, lasting all day even with heavy usage. The display is sharp and bright, making videos and games enjoyable. The phone is also very fast and responsive, and the software is user-friendly. I highly recommend this smartphone to anyone in need of a reliable and feature-packed device.",
+        "output": "Stunning camera with great detail \nExcellent battery life \nSharp and bright display \nFast and responsive performance \nUser-friendly software"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its pros",
+        "input": "I'm extremely pleased with this fitness tracker. It accurately tracks my steps, distance, and calories burned throughout the day. The heart rate monitor provides real-time data, helping me optimize my workouts. The sleep tracking feature is also useful, providing insights into my sleep patterns. The device is comfortable to wear and the battery life is impressive. The companion app is intuitive and offers a wide range of features. Overall, this fitness tracker has been a great addition to my health and fitness routine.",
+        "output": "Accurate tracking of steps, distance, and calories burned \nReal-time heart rate monitoring \nUseful sleep tracking feature \nComfortable to wear \nImpressive battery life \nIntuitive companion app"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its pros",
+        "input": "I recently purchased this blender and it's been a game-changer in my kitchen. The motor is powerful and blends ingredients smoothly and quickly. The multiple speed settings allow for precise control. It's also easy to clean, with removable parts that are dishwasher safe. The build quality is excellent and it feels sturdy. The blender is versatile, capable of making smoothies, soups, and even crushing ice. I highly recommend this blender to anyone in need of a reliable and efficient kitchen appliance.",
+        "output": "Powerful motor for smooth and quick blending \nMultiple speed settings for precise control \nEasy to clean with dishwasher-safe parts \nExcellent build quality \nVersatile functionality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its pros",
+        "input": "I've been using this vacuum cleaner for a while now and it's been fantastic. The suction power is impressive, effectively cleaning both carpets and hard floors. The maneuverability is excellent, allowing me to reach tight spaces easily. The dustbin is large and easy to empty. The included attachments are useful for various cleaning tasks. The build quality is solid and it feels durable. Overall, this vacuum cleaner has exceeded my expectations and I highly recommend it.",
+        "output": "Impressive suction power for effective cleaning \nExcellent maneuverability \nLarge and easy-to-empty dustbin \nUseful attachments \nSolid build quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its pros",
+        "input": "I bought this soundbar for my home theater setup and it's been amazing. The audio quality is exceptional, providing immersive and clear sound. The bass is powerful without overwhelming the other frequencies. The soundbar is easy to set up and connect to my devices. It also looks sleek and modern, complementing my TV. The remote control is user-friendly and the soundbar has various audio modes to suit different content. I'm extremely satisfied with this purchase.",
+        "output": "Exceptional audio quality \nPowerful and well-balanced bass \nEasy setup and connectivity \nSleek and modern design \nUser-friendly remote control \nVarious audio modes"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its pros",
+        "input": "I've been using this skincare product for a few weeks and it's been a game-changer for my skin. It has significantly reduced my acne breakouts and improved the overall texture of my skin. The formula is lightweight and absorbs quickly without leaving a greasy residue. It also moisturizes my skin effectively, leaving it soft and supple. The packaging is convenient and hygienic. I highly recommend this product to anyone struggling with acne-prone skin.",
+        "output": "Reduces acne breakouts \nImproves skin texture \nLightweight formula that absorbs quickly \nEffective moisturization \nConvenient and hygienic packaging"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its pros",
+        "input": "I recently purchased this coffee maker and it's been fantastic. It brews coffee quickly and the flavor is excellent. The programmable timer is convenient, allowing me to wake up to a fresh cup of coffee. The build quality is solid and it feels durable. The carafe keeps the coffee hot for a long time. The design is sleek and it doesn't take up much space on my countertop. I'm extremely happy with this coffee maker.",
+        "output": "Fast brewing with excellent flavor \nConvenient programmable timer \nSolid build quality \nLong-lasting heat retention \nSleek and space-saving design"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its pros",
+        "input": "I bought this electric toothbrush and it's been a game-changer for my oral hygiene. The brush head oscillates and rotates, providing a thorough and effective clean. The built-in timer ensures that I brush for the recommended time. The battery life is impressive, lasting for weeks on a single charge. The toothbrush is also waterproof, allowing for easy cleaning and use in the shower. I highly recommend this electric toothbrush for anyone looking to improve their dental care routine.",
+        "output": "Thorough and effective cleaning \nBuilt-in timer for recommended brushing time \nImpressive battery life \nWaterproof design for easy cleaning \nSuitable for use in the shower"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its pros",
+        "input": "I recently purchased this book and it's a must-read. The writing style is engaging and the story is captivating from beginning to end. The characters are well-developed and relatable. The book explores important themes and offers thought-provoking insights. The pacing is excellent, keeping me hooked until the last page. It's a book that stays with you long after you've finished reading. I highly recommend it to any avid reader.",
+        "output": "Engaging writing style \nCaptivating story \nWell-developed and relatable characters \nExplores important themes \nExcellent pacing"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "Although this laptop has great performance, the battery life is disappointing. It drains quickly even with light usage, requiring frequent recharging. The build quality could be better, as the chassis feels a bit flimsy. The keyboard layout is also not ideal, with some keys placed in awkward positions. Additionally, the laptop tends to heat up during prolonged use, which can be uncomfortable. Overall, while it has its strengths, these drawbacks should be considered before making a purchase.",
+        "output": "Disappointing battery life \nFlimsy build quality \nAwkward keyboard layout \nTendency to heat up during prolonged use"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The camera on this smartphone takes great photos, but the battery life is a major downside. It doesn't last long, especially when using power-intensive apps or features. The software can be buggy at times, with occasional freezes and crashes. The phone also lacks expandable storage, which can be limiting for users with large media libraries. Furthermore, the device tends to overheat with prolonged use, which is concerning. These issues should be taken into account before purchasing.",
+        "output": "Short battery life \nOccasional software bugs \nLack of expandable storage \nTendency to overheat with prolonged use"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this fitness tracker has accurate tracking capabilities, the app interface is poorly designed. It's confusing to navigate and lacks intuitive features. The heart rate monitor can be inconsistent, providing inaccurate readings at times. The battery life is also below average, requiring frequent recharging. Additionally, the strap quality is subpar, with reports of it breaking or wearing out quickly. These drawbacks should be considered before deciding on this fitness tracker.",
+        "output": "Poorly designed app interface \nInconsistent heart rate monitor \nBelow-average battery life \nSubpar strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it can be quite noisy during operation. The noise level is higher than expected, which can be disruptive in a quiet environment. The blender jar is also prone to leakage, especially when blending liquids at high speeds. The cleaning process can be tedious, as some parts are not dishwasher safe and require manual scrubbing. These downsides should be taken into consideration before purchasing this blender.",
+        "output": "Noisy operation \nProne to leakage \nTedious cleaning process"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, the maneuverability is lacking. It's difficult to navigate around furniture and reach tight spaces due to its bulky design. The dustbin capacity is also relatively small, requiring frequent emptying. Some users have reported issues with the durability of the attachments, with them breaking or wearing out quickly. These limitations should be considered before choosing this vacuum cleaner.",
+        "output": "Lack of maneuverability \nSmall dustbin capacity \nIssues with attachment durability"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This soundbar offers excellent audio quality, but the connectivity options are limited. It lacks Bluetooth connectivity, which limits the ability to wirelessly stream audio from mobile devices. The remote control design is also subpar, with small buttons that are not user-friendly. Some users have experienced syncing issues between the soundbar and their TVs. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Limited connectivity options \nSubpar remote control design \nPotential syncing issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective, it can be quite expensive compared to similar alternatives on the market. The packaging is also not very travel-friendly, as it's bulky and prone to leakage. Some users have reported skin irritation or allergic reactions after using this product. The scent of the product is also polarizing, with some finding it unpleasant. These drawbacks should be considered before purchasing this skincare product.",
+        "output": "Relatively expensive compared to alternatives \nNot travel-friendly packaging \nPotential for skin irritation or allergic reactions \nPolarizing scent"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This coffee maker brews excellent coffee, but it lacks programmable features. It doesn't have a timer or the ability to set automatic brewing in the morning. The carafe design can be inconvenient, as it drips when pouring and the lid is prone to leakage. Some users have also experienced issues with the durability of the coffee maker, with components breaking or malfunctioning. These limitations should be taken into account before choosing this coffee maker.",
+        "output": "Lack of programmable features \nInconvenient carafe design \nIssues with durability"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this electric toothbrush provides a thorough clean, the brush heads are quite expensive to replace. The battery life could also be improved, as it requires frequent recharging. Some users have reported issues with the durability of the toothbrush, with the motor or buttons malfunctioning over time. The brush head design is also not very ergonomic, leading to discomfort during prolonged use. These limitations should be considered before purchasing this electric toothbrush.",
+        "output": "Expensive brush head replacements \nCould improve battery life \nPotential durability issues \nNon-ergonomic brush head design"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This book has an engaging story, but the pacing is inconsistent. It can feel slow and drag in certain parts, which may detract from the overall reading experience. Some readers have found the ending to be unsatisfying or predictable. The writing style may also not resonate with everyone, as it's subjective. These drawbacks should be taken into consideration before deciding to read this book.",
+        "output": "Inconsistent pacing \nUnsatisfying or predictable ending \nSubjective writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is subpar, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Subpar battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be considered before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this vacuum cleaner has strong suction power, it can be quite heavy and difficult to maneuver. The cord length is also shorter than desired, requiring frequent unplugging and re-plugging in larger areas. The dustbin capacity is relatively small, necessitating more frequent emptying. Some users have reported issues with the durability of the vacuum cleaner, with components breaking or malfunctioning. These limitations should be considered before purchasing this vacuum cleaner.",
+        "output": "Heavy and difficult to maneuver \nShort cord length \nSmall dustbin capacity \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this soundbar offers excellent audio quality, it lacks HDMI connectivity. This limits the ability to connect it to certain devices or utilize advanced audio formats. The remote control design is also subpar, with buttons that are not well-placed or intuitive. Some users have experienced issues with the soundbar randomly turning off or losing connection. These limitations should be taken into account before deciding on this soundbar.",
+        "output": "Lack of HDMI connectivity \nSubpar remote control design \nPotential power or connectivity issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this skincare product is effective for some, it can cause skin irritation or allergic reactions in others. The scent of the product is also strong and not to everyone's liking. The packaging design can be improved, as it can be difficult to dispense the product without wasting or making a mess. Additionally, the product can be relatively expensive compared to alternative options on the market. These drawbacks should be taken into consideration before purchasing this skincare product.",
+        "output": "Potential for skin irritation or allergic reactions \nStrong scent \nInconvenient packaging \nRelatively expensive compared to alternatives"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this coffee maker brews a good cup of coffee, it lacks advanced features such as programmable settings or a built-in grinder. The carafe design can be prone to spills and drips when pouring. Some users have experienced issues with the durability of the coffee maker, with components breaking or malfunctioning over time. These limitations should be considered before choosing this coffee maker.",
+        "output": "Lack of advanced features \nProne to spills and drips \nPotential durability issues"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This electric toothbrush provides a thorough clean, but it can be quite expensive compared to manual toothbrushes or other electric toothbrush options. Some users have reported issues with the durability of the toothbrush, with the motor or battery wearing out over time. The brush head replacements are also relatively pricey. These drawbacks should be taken into account before purchasing this electric toothbrush.",
+        "output": "Relatively expensive compared to alternatives \nPotential durability issues \nPricey brush head replacements"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While this book has an interesting premise, the pacing can be slow and the plot can feel disjointed at times. Some readers have found the characters to be underdeveloped or unrelatable. The writing style may not appeal to everyone, as it can be verbose or overly descriptive. These drawbacks should be considered before deciding to read this book.",
+        "output": "Slow pacing \nDisjointed plot \nUnderdeveloped or unrelatable characters \nVerbose or overly descriptive writing style"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "The battery life of this smartphone is below average, requiring frequent recharging throughout the day. The camera quality, while decent, falls short compared to other smartphones in the same price range. The device tends to heat up with prolonged use, which can be uncomfortable. Some users have also experienced software glitches or crashes. These limitations should be taken into account before purchasing this smartphone.",
+        "output": "Below-average battery life \nAverage camera quality \nTendency to heat up with prolonged use \nPotential software glitches"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "While the app interface of this fitness tracker is user-friendly, the accuracy of the tracking can be questionable. Some users have reported discrepancies in step counting and heart rate monitoring. The battery life could also be improved, as it requires frequent recharging. The strap quality is average, with reports of it being uncomfortable or causing skin irritation. These drawbacks should be taken into account before deciding on this fitness tracker.",
+        "output": "Questionable accuracy in tracking \nCould improve battery life \nAverage strap quality"
+    },
+    {
+        "instruction": "Given the reviews of this product, give me its cons",
+        "input": "This blender is powerful and efficient, but it lacks versatility in terms of blending options. It doesn't offer specialized settings for specific tasks like crushing ice or making smoothies. The noise level during operation is also higher than expected. Some users have experienced issues with the durability of the blender, with the motor or blades wearing out over time. These limitations should be taken into account before choosing this blender.",
+        "output": "Lack of specialized blending settings \nHigher than expected noise level \nPotential durability issues"
+    }
+]
